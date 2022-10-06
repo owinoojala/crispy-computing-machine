@@ -1,0 +1,169 @@
+body{
+    margin-left: 50px;
+}
+/*HTML CSS Course*/
+
+.tahoma-class{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading{
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+    
+}
+.sub-heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+}
+.get-started-btn{
+    background-color: rgb(33, 82, 10);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+/*Biggest deals*/ 
+.biggest-deals{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.sales-end{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: brown;
+    margin-top: 8px;
+}
+.shopping{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+.shopping-help{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+}
+.link{
+    color: rgb(11, 160, 230);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;text-align: center;
+    
+}
+.link-parent{
+    text-align: center;
+}
+/*MacBooks tings*/
+.macbook-tings{
+    text-align: center;
+}
+.new-offer{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.macbook-head{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 590;
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+.macbook-desc{
+    color: black;
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.macbook-price{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.buy-btn{
+    background-color: rgb(11, 160, 230);
+    color: white;
+    border: none;
+    border-radius: 18px;
+    padding: 10px;
+}
+/*Tweeter tweet*/
+
+.tweet{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tweet-head{
+    margin-bottom: 8px;
+}
+.profile-name{
+    font-size: 18px;
+    font-weight: 700;
+}
+.tweeter-handle{
+    color: gray;
+}
+.message-1{
+    font-size: 15px;
+    width: 450px;
+    margin-bottom: 20px;
+}
+.message-2{
+    font-size: 15px;
+}
+.mentioned-handle{
+    color: rgb(11, 160, 230);
+}
+/*Stock*/
+.stock{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.price-inf{
+    margin-bottom: 10px;
+}
+.stock-price{
+    font-weight: 600;
+    font-size: 18px;
+}
+.currency{
+    color: gray;
+    font-size: 14px;
+}
+.pos-price-deviation{
+    color: rgb(20, 139, 124);
+    font-size: 13px;
+}
+.forecast-data{
+    margin-top: 10px;
+}
+.forecast-price{
+    color: gray;
+    font-size: 14px;
+}
+.neg-price-deviation{
+    color: brown;
+    font-size: 14px;
+}
+
