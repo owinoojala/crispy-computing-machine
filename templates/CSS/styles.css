@@ -166,4 +166,22 @@ body{
     color: brown;
     font-size: 14px;
 }
+/*Model 3*/
+.model{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.model-3{
+    
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.model-3-s{
+    font-size: 16px;
+    
+}
+.model-3-span{
+    text-decoration: underline;
+}
 
