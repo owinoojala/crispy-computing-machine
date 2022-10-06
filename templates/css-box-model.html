@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css-box-model</title>
+    <style>
+    /*Pagination */
+        .pagination{
+            margin-top: 50px;
+        }
+        .back-btn{
+            padding: 15px 8px;
+            margin-right: 12px;
+        }
+        .next-btn{
+            padding: 15px 8px;
+            margin-left: 12px;
+        }
+        
+            
+    /*Stretch button*/    
+        .stretch-btn{
+            background-color: rgba(46, 164, 79);
+            color: white;
+            border-radius: 2px;
+            margin-top: 20px;
+            margin-left: 50px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            padding: 15px 20px;
+            border: none;
+            font-size: 15px;
+            font-weight: bold;
+            transition: padding 0.15s, margin 0.15s;
+        }
+        .stretch-btn:hover{
+           padding: 20px 25px;
+           margin-right: 5px;
+           margin-bottom: 5px;
+           margin-left: 45px;
+           margin-top: 15px;
+        }
+    /*Shadow button*/
+        .shadow-btn{
+            background-color: rgba(46, 164, 79);
+            color: white;
+            border: none;
+            border-radius: 2px;
+            margin-top: 20px;
+            margin-left: 10px;
+            padding: 15px 20px;
+            font-size: 15px;
+            font-weight: bold;
+            transition: box-shadow 0.15s;
+        }
+        .shadow-btn:hover{
+            box-shadow: 4px 4px 1px rgba(0, 0, 0, .2);
+        }
+    /*Button labelled one*/    
+        .one-btn{
+            background-color: rgba(46, 164, 79);
+            color: white;
+            border: none;
+            border-radius: 2px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-right: 20px;
+            margin-top: 20px;
+            margin-left: 30px;
+            margin-right: 10px;
+            padding: 10px 15px;
+            transition: margin 0.15s, padding 0.15s;
+        }
+        .one-btn:hover{
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: 25px;
+            margin-right: 5px;
+        }
+    /*Button labelled two*/ 
+        .two-btn{
+            background-color: rgba(46, 164, 79);
+            color: white;
+            border: none;
+            border-radius: 2px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-right: 20px;
+            margin-top: 20px;
+            margin-right: 10px;
+            margin-left: 10px;
+            padding: 10px 15px;
+            transition: margin 0.15s, padding 0.15s;
+        }
+        .two-btn:hover{
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    /*Button labelled three*/ 
+        .three-btn{
+            background-color: rgba(46, 164, 79);
+            color: white;
+            border: none;
+            border-radius: 2px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-right: 10px;
+            margin-top: 20px;
+            margin-left: 10px;
+            padding: 10px 15px;
+            transition: margin 0.15s, padding 0.15s;
+        }
+        .three-btn:hover{
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pagination">
+        <button class="back-btn">Back</button>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+    <button class="next-btn">Next</button>
+    </div>
+    <div class="btn-class">
+        <button class="stretch-btn">
+            Stretch
+        </button>
+
+        <button class= "shadow-btn">
+            Shadow
+        </button>
+        <br>
+        
+    </div>
+    
+        <button class="one-btn">One</button>
+        <button class="two-btn">Two</button>
+        <button class="three-btn">Three</button>
+    
+</body>
+</html>
