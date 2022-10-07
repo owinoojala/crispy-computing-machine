@@ -8,20 +8,74 @@
     <link rel="stylesheet" href="/templates/CSS/styles.css">
 </head>
 <body>
+    <!--Pics-->
     <div class="image-block">
         <img class="rect-img" src="elon.webp" alt="Image">
-        <img class="sqr-img" src="elon.webp" alt="Image">
-        <img class="circle-img" src="elon.webp" alt="Image">
+      <img class="circle-img" src="elon.webp" alt="Image">
     </div>
-    <input class="rounded-corners" type="text" placeholder="Search">
-    <div class="seach-boxes">
+
+    <!--facebook friends-->
+    <div class="profile">
+        <img class="sqr-img" src="elon.webp" alt="Image">
+        <p class="user-name">Elon</p>
+        <p class="mutual-friends">2 mutual friends</p>
+        <button class="add-friend-btn">Add Friend</button>
+    </div>
+    <div class="profile">
+        <img class="sqr-img" src="elon.webp" alt="Image">
+        <p class="user-name">Elon</p>
+        <p class="mutual-friends">2 mutual friends</p>
+        <button class="add-friend-btn">Add Friend</button>
+    </div>
+    <div class="profile">
+        <img class="sqr-img" src="elon.webp" alt="Image">
+        <p class="user-name">Elon</p>
+        <p class="mutual-friends">2 mutual friends</p>
+        <button class="add-friend-btn">Add Friend</button>
+    </div>
+    <div class="profile">
+        <img class="sqr-img" src="elon.webp" alt="Image">
+        <p class="user-name">Elon</p>
+        <p class="mutual-friends">2 mutual friends</p>
+        <button class="add-friend-btn">Add Friend</button>
+    </div>
+    <div class="profile">
+        <img class="sqr-img" src="elon.webp" alt="Image">
+        <p class="user-name">Elon</p>
+        <p class="mutual-friends">2 mutual friends</p>
+        <button class="add-friend-btn">Add Friend</button>
+    </div>
+    <div class="profile">
+        <img class="sqr-img" src="elon.webp" alt="Image">
+        <p class="user-name">Elon</p>
+        <p class="mutual-friends">2 mutual friends</p>
+        <button class="add-friend-btn">Add Friend</button>
+    </div>
+    <div class="profile">
+        <img class="sqr-img" src="elon.webp" alt="Image">
+        <p class="user-name">Elon</p>
+        <p class="mutual-friends">2 mutual friends</p>
+        <button class="add-friend-btn">Add Friend</button>
+    </div>
+    <hr>
+    <!--Rounded corner seacrh box-->
+     <input class="rounded-corners" type="text" placeholder="Search">
+    <hr>
+     <!--Google search-->
+    <div class="google-search">
         
         <img class="google-logo" src="download.png" alt="">
         <input class="no-border" 
             type="text" 
-            placeholder="Search Google ot type Url"
+            placeholder="Search Google or type a URL"
         >
+        <div class="google-btns">
+            <button class="search-btn">Google Search</button>
+            <button class="lucky-btn">I'm Feeling Lucky</button>
+        </div>
     </div>
+    <hr>
+    <!--Linked in-->
     <div class="linked-in">
         <label class="text-class" for="Email">Email</label><br>
         <input type="email" name="email" id="email"
@@ -36,6 +90,7 @@
         </button>
     </div>
     <hr>
+    <!--Twitter-->
     <div class="twitter">
         <img class="twitter-dp" src="elon.webp" alt="">
         <input type="text" name="tweet-" id="tweet"
@@ -82,24 +137,111 @@
     </div>
     <hr>
     <!--Uber request a ride form-->
-    <p class="uber-heading">
-        Request a ride now
-    </p>
-    <input type="text" class="pickup-location"
-    placeholder="Enter pickup location"
-    >
-    <input type="text" class="destination-name"
-    placeholder="Enter destination"
-    >
-    <button class="request-btn">
-        Request now
-    </button>
-    <button class="schedule-btn">
-        Schedule for later
-    </button>
+    <div>
+        <p class="uber-heading">
+            Request a ride now
+        </p>
+        <input type="text" class="pickup-location"
+        placeholder="Enter pickup location"
+        >
+        <input type="text" class="destination-name"
+        placeholder="Enter destination"
+        >
+        <button class="request-btn">
+            Request now
+        </button>
+        <button class="schedule-btn">
+            Schedule for later
+        </button>
+    </div>
+        <hr>
+    <!--Colored plane figures-->
+    <div class="red-square">
+
+    </div>
+    <div class="green-circle">
+        
+    </div>
+    <hr>
+    <!--Service evaluation-->
+    <div class="service-eval">
+        <p class="eval-quiz">
+            Satisfied with our service?
+        </p>
+        <button class="eval-yes">Yes</button>
+        <button class="eval-no">No</button>
+    </div>
+    <hr>
+    <!--Youtube notification-->
+    <div class="yt-notification">
+        <p class="message-head">
+            Install YouTube Music
+        </p>
+        <p class="simple-sugesstion">
+            Add Youtube Music to your desktop 
+            and easy acess
+        </p>
+    </div>
 
 </body>
 <style>
+    
+    .yt-notification{
+        background-color: rgb(29, 28, 28);
+        display: inline-block;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        padding: 24px;
+
+    }
+    .message-head{
+        color: white;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .simple-sugesstion{
+        color: rgb(151, 150, 150);
+        width: 300px;
+    }
+    .service-eval{
+        border: solid 1px;
+        border-color: silver;
+        border-radius: 2px;
+        display: inline-block;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 21px;
+        padding-left: 18px;
+        padding-right: 90px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .eval-quiz{
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .eval-yes,.eval-no{
+        border-color: silver;
+        border-radius: 3px;
+        border-width: 1px;
+        padding: 5px;
+    }
+    .red-square{
+        background-color: red;
+        display: inline-block;
+        height: 70px;
+        margin-top: 20px;
+        vertical-align: top;
+        width: 70px;  
+    }
+    .green-circle{
+        background-color: green;
+        border-radius: 35px;
+        display: inline-block;
+        height: 70px;
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 70px;
+        vertical-align: top;
+    }
     .uber-heading{
         font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
         font-size: 28px;
