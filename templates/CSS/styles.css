@@ -390,11 +390,26 @@ body{
     font-weight: bold;
     
 }
-.mutual-friends{
+.mutual-numbers{
     color: rgb(90, 87, 87);
-    font-size: 13px;
+    display: inline-block;
     margin-top: -8px;
 
+}
+.mutual-friends{
+    display: inline-block;
+    margin-bottom: 6px;
+    font-size: 11px;
+    
+}
+.mutual-img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
 }
 .add-friend-btn{
     background-color: rgb(12, 121, 231);
