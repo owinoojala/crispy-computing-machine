@@ -13,8 +13,10 @@
         <img class="sqr-img" src="elon.webp" alt="Image">
         <img class="circle-img" src="elon.webp" alt="Image">
     </div>
+    <input class="rounded-corners" type="text" placeholder="Search">
     <div class="seach-boxes">
-        <input class="rounded-corners" type="text" placeholder="Search">
+        
+        <img class="google-logo" src="download.png" alt="">
         <input class="no-border" 
             type="text" 
             placeholder="Search Google ot type Url"
@@ -42,5 +44,140 @@
         >
         <button class="tweet-btn">Tweet</button>
     </div>
+    <hr>
+    <!--CSS Display property-->
+        <!--display block-->
+    <div class="display">
+        <input class="name-field" placeholder="Name"
+         type="text" 
+         >
+         <input type="text" class="email-field-block"
+         placeholder="Email"
+         >
+    </div>
+    <div class="paragraph-btn">
+        <p class="leading-paragraph">
+            Thanks for chatting wiht our
+            customer support. Would you 
+            like to take part in a survey?
+        </p>
+        <button class="yes-button">
+            Yes
+        </button>
+        <button class="no-button">
+            No
+        </button>
+    </div>
+    <hr>
+    <div class="sign-up-form">
+        <input placeholder="First name" type="text" 
+        class="firt-name-field" size="10">
+        <input type="text" class="last-name-field"
+        placeholder="Last name" size="10">
+        <input type="text" size="" class="email-filed"
+        placeholder="Email">
+        <button class="signup-btn" >
+            Sign Up
+        </button>
+    </div>
+    <hr>
+    <!--Uber request a ride form-->
+    <p class="uber-heading">
+        Request a ride now
+    </p>
+    <input type="text" class="pickup-location"
+    placeholder="Enter pickup location"
+    >
+    <input type="text" class="destination-name"
+    placeholder="Enter destination"
+    >
+    <button class="request-btn">
+        Request now
+    </button>
+    <button class="schedule-btn">
+        Schedule for later
+    </button>
+
 </body>
+<style>
+    .uber-heading{
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .destination-name,
+    .pickup-location{
+        display: block;
+        margin-bottom: 5px;
+        padding: 10px;
+        padding-right: 79px;
+        background-color: rgb(246, 246, 246);
+        border: none;
+        border-radius: 5px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 12px;
+    }
+    .request-btn{
+        background-color: black;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        display: inline-block;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        margin-right: 5px;
+        margin-top: 10px;
+        padding: 10px 10px;
+        
+    }
+    .schedule-btn{
+        background-color: rgb(246, 246, 246);
+        border: none;
+        border-radius: 5px;
+        color: black;
+        display: inline-block;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        margin-left: 5px;
+        margin-top: 10px;
+        padding: 10px 10px;
+    }
+    .last-name-field,
+    .firt-name-field{
+        display: inline-block;
+        border-color: rgb(196, 194, 194);
+        border-width: 1px;
+        border-radius: 6px;
+        margin: 5px 2px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 0px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        
+    }
+    .email-filed{
+        display: block;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        border-color: rgb(196, 194, 194);
+        border-width: 1px;
+        border-radius: 6px;
+        margin: 5px 2px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 50px;
+
+    }
+    .signup-btn{
+        background-color: rgb(19, 161, 204);
+        font-family: Arial;
+        border: none;
+        color: white;
+        border-radius: 8px;
+        font-weight: bold;
+        margin-top: 10px;
+        padding: 15px 93px;
+
+    }
+</style>
 </html>

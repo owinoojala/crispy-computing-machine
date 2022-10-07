@@ -2,7 +2,7 @@ body{
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 500px;
 }
 /*HTML CSS Course*/
 
@@ -230,20 +230,31 @@ body{
     font-size: 13px;
     font-weight: lighter;
 }
+.search-boxes{
+    align-items: center;
+}
 .no-border{
     background-color: #fff;
     border: none;
+    display: block;
     color: gray;
     font-size: 12px;
     font-family: Arial;
     font-weight: 100;
-    margin-top: 20px;
+    margin: 0 auto;
     padding-top: 9px;
     padding-bottom: 9px;
-    padding-right: 70px;
+    padding-right: 150px;
     padding-left: 10px;
     border-radius: 10px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.google-logo{
+    display: block;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 /*Linked in Signup*/
 .linked-in{
@@ -303,6 +314,35 @@ body{
     margin-left: 10px;
     padding: 10px 10px;
     border-radius: 18px;
+}
+.email-field-block,
+.name-field{
+    display: block;
+    margin-top: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    border-color: gray;
+    border-radius: 4px;
+    border-width: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.leading-paragraph{
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 100;
+}
+.yes-button,
+.no-button{
+    display: inline-block;
+    margin-right: 4px;
+    padding: 4px 6px;
+    background-color: rgb(0, 65, 130);
+    border: none;
+    border-radius: 4px;
+    vertical-align: middle;
 }
 
 
