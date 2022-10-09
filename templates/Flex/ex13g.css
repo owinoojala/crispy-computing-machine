@@ -1,0 +1,85 @@
+body{
+    
+    font-family: system-ui, -apple-system,
+            BlinkMacSystemFont, 'Segoe UI', Roboto,
+            Oxygen, Ubuntu, Cantarell, 'Open Sans',
+            'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.container{
+    background:linear-gradient(45deg, blue,green 40%, red) ;
+    border-radius: 12px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 330px
+}
+.image-section{
+    width: 55px;
+}
+.profile-pic{
+    border: none;
+    border-radius: 23px;
+    height: 45px;
+    object-fit: cover;
+    object-position: center;
+    width: 45px;
+
+}
+.msg-section{
+    
+    display: block;
+    flex: 1;
+}
+.user-id{
+    display: inline-block;
+}
+.users-name{
+    font-weight: bold;
+}
+.user-handle{
+    color: grey;
+}
+.tweet-msg{
+    font-weight: 400;
+    margin-top: -9px;
+}
+.media-section{
+    
+    border: none;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.media-preview-section{
+    width: 70px;
+}
+.media-preview{
+    border-radius: 10px 0 0 10px;
+    height: 79px;
+    margin-right: 10px;
+    margin-bottom: -4px;
+    width: 60px;
+}
+.media-link{
+    color: grey;
+    text-decoration: none;
+    font-size: 13px;
+    margin-bottom: -5px;
+
+}
+.media-description{
+    margin-top: -2px;
+    
+    /*
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    */
+}
