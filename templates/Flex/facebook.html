@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex twitter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="user">
+            <img src="elon.webp" alt="" class="profile-pic">
+            <div class="user-profile-name">
+                <p class="user-name">Elon</p>
+                <p class="profile-descr">The number one Entrepreneur</p>
+            </div>
+            <button class="follow-btn">Follow</button> 
+        </div>
+        <div class="user">
+            <img src="elon.webp" alt="" class="profile-pic">
+            <div class="user-profile-name">
+                <p class="user-name">Elon</p>
+                <p class="profile-descr">The number one Entrepreneur</p>
+            </div>
+            <button class="follow-btn">Follow</button> 
+        </div>
+        <div class="user">
+            <img src="elon.webp" alt="" class="profile-pic">
+            <div class="user-profile-name">
+                <p class="user-name">Elon</p>
+                <p class="profile-descr">The number one Entrepreneur</p>
+            </div>
+            <button class="follow-btn">Follow</button> 
+        </div>
+    </div>
+</body>
+<style>
+    body{
+        padding-bottom: 500px;
+        padding-left: 89px;
+        padding-right: 80px;
+        padding-top: 70px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 400px;
+    }
+    .user-profile-name{
+        margin-left: -215px;
+        
+        width: 60px;
+    }
+    .user{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .user-name{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        margin-bottom: -7px;
+    }
+    .profile-pic{
+        border-radius: 23px;
+        height: 45px;
+        object-fit: cover;
+        object-position: center;
+        width: 45px;
+        
+    }
+    .profile-descr{
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 12px;
+        color: grey;
+    }
+    .follow-btn{
+        background-color: rgb(36, 155, 235);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 13px;     
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: 600;
+        padding: 10px;
+    }
+</style>
+</html>

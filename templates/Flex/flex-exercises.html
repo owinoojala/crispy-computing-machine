@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+</head>
+<body>
+    <div class="info-items">
+        <div class="info-item">
+            <p class="info-name">Home</p>
+            <div>
+                <button class="info-count-btn">14</button>
+            </div>
+        </div>
+        <div class="info-item">
+            <p class="info-name">Notification</p>
+            <div>
+                <button class="info-count-btn">3</button>
+            </div>
+            
+        </div>
+        <div class="info-item">
+            <p class="info-name">Messages</p>
+            <div>
+                <button class="info-count-btn">5</button>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    body{
+        padding-left: 60px;
+        padding-top: 100px;
+        padding-bottom: 400px;
+        padding-right: 50px;
+    }
+    .info-items{
+        border: solid 1px grey;
+        
+        border-radius: 7px;
+        padding-bottom: 6px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 6px;
+        width: 300px;
+    }
+    .info-item{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-bottom: -10px;
+       
+
+    }
+    .info-name{
+        font-family: system-ui, -apple-system, 
+                    BlinkMacSystemFont, 'Segoe UI', Roboto, 
+                    Oxygen, Ubuntu, Cantarell,
+                    'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .info-count-btn{
+        background-color: rgb(17, 138, 219);
+        border: none;
+        border-radius: 12px;
+        color: white;
+        font-family: system-ui, -apple-system, 
+                    BlinkMacSystemFont, 'Segoe UI', Roboto, 
+                    Oxygen, Ubuntu, Cantarell,
+                    'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        margin: 0;
+        padding: 3px 9px;
+
+    }
+
+</style>
+</html>

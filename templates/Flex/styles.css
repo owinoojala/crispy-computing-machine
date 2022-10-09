@@ -1,0 +1,40 @@
+.body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: 13px;
+    color: white;
+    
+}
+.container{
+    align-items: center;
+    background-color: rgb(120, 82, 178);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.text-box{
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    padding-left: 20px;
+    width: 500px;
+}
+.home-link{
+    color: white;
+    font-style: 13px;
+}
+.download-btn{
+    background-color: rgb(120, 82, 178);
+    border: solid 1px white;
+    border-radius: 2px;
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    font-style: 13px;
+    
+}
